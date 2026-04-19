@@ -47,7 +47,7 @@ class Nil extends fields\runner\tests\blank\cli
 
         if (null !== $this->runner) {
             $voidMethods      = $this->runner->getScore()->getVoidMethods();
-            $sizeOfVoidMethod = sizeof($voidMethods);
+            $sizeOfVoidMethod = count($voidMethods);
 
             if (0 < $sizeOfVoidMethod) {
                 $string .=

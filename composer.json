@@ -1,5 +1,5 @@
 {
-    "name"       : "hoa/test",
+    "name"       : "enojaroff/hoa-test",
     "description": "The Hoa\\Test library.",
     "type"       : "library",
     "keywords"   : ["library", "test", "praspel", "atoum"],
@@ -23,17 +23,18 @@
         "source": "https://central.hoa-project.net/Resource/Library/Test"
     },
     "require": {
+        "php": "^8.0",
         "atoum/atoum"               : "~3.0",
         "atoum/praspel-extension"   : "~0.17",
         "atoum/ruler-extension"     : "~1.3",
         "atoum/visibility-extension": "~1.3",
-        "hoa/cli"                   : "dev-master",
-        "hoa/consistency"           : "dev-master",
-        "hoa/console"               : "dev-master",
-        "hoa/file"                  : "dev-master",
+        "enojaroff/hoa-cli"         : "dev-master",
+        "enojaroff/hoa-consistency" : "dev-master",
+        "enojaroff/hoa-console"     : "dev-master",
+        "enojaroff/hoa-file"        : "dev-master",
         "hoa/kitab"                 : "~0.6",
-        "hoa/protocol"              : "dev-master",
-        "hoa/ustring"               : "dev-master"
+        "enojaroff/hoa-protocol"    : "dev-master",
+        "enojaroff/hoa-ustring"     : "dev-master"
     },
     "autoload": {
         "psr-4": {

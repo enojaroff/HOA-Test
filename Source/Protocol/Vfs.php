@@ -70,7 +70,7 @@ class Vfs extends Protocol\Node
         }
 
         $components = parse_url($queue);
-        $path       = &$components['path'];
+        $path       = $components['path'] ?? null;
 
         if (isset($this->_streams[$path])) {
             return $this->_streams[$path];

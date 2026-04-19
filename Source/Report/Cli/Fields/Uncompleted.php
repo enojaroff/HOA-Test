@@ -47,7 +47,7 @@ class Uncompleted extends fields\runner\tests\uncompleted\cli
 
         if (null !== $this->runner) {
             $uncompletedMethods      = $this->runner->getScore()->getUncompletedMethods();
-            $sizeOfUncompletedMethod = sizeof($uncompletedMethods);
+            $sizeOfUncompletedMethod = count($uncompletedMethods);
 
             if (0 < $sizeOfUncompletedMethod) {
                 $string .=
